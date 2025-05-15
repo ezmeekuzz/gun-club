@@ -1,0 +1,53 @@
+@media screen and (max-width:500px){
+    .addressCol li a{
+        text-align: center;
+    }
+
+    .footerLogo{
+        width: 100%;
+        height: 180px;
+        object-fit: contain;
+    }
+
+    footer ul li {
+        text-align: center;
+    }
+
+    footer .topImg{
+        height: 250px!important;
+    }
+
+    .subTitle-h3{
+        font-size: 30px!important;
+    }
+
+    .contentSection{
+        width:100%;
+    }
+
+    .subTitleWht-h3{
+        font-size: 25px!important;
+    }
+
+    .mainSection{
+        height: 250px!important;
+    }
+
+    .bnrTop{
+        width: 100%;
+    }
+
+    footer ul li a{
+        font-size: 15px!important;
+    }
+
+    .col-5ths{
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .afflImg img{
+        height: 150px;
+    }
+}

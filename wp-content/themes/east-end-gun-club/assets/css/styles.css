@@ -1,0 +1,447 @@
+
+
+
+
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.btn-danger{
+    border-radius: 50px!important;
+    background-color:#B12333!important;
+    text-transform: uppercase;
+    padding:10px 25px!important;
+    font-weight: 600;
+}
+
+.bnrTop{
+    width: 45%;
+}
+
+.signCol{
+    color:#fff;
+    text-decoration: none;
+}
+
+.lostTxt{
+    font-size: 14px;
+    color:#0000007e;
+    text-decoration: none;
+
+}
+
+
+h1, h2, h3, h4 ,h5, h6, p, a,
+li, input, select, textarea, ::placeholder,
+button, span, table, label {
+    font-family: "Montserrat", sans-serif!important;
+    margin: 0!important;
+}
+
+.mainSection{
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.mainSection::before{
+    position: absolute;
+    content:"";
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: #ffffff;
+    background: linear-gradient(268deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 100%);
+    z-index: 0;
+}
+
+.bnrTop{
+    position: relative;
+}
+
+.bnrTop p {
+    font-size: 18px;
+    position: absolute;
+    right: 70px;
+    color:#fff;
+    bottom: 0;
+}
+
+.btnClear{
+    text-decoration: none;
+    width: 250px;
+    font-size: 18px;
+    color:#fff;
+    margin-top: 100px;
+}
+
+.btnClear:hover{
+    color:#fff;
+}
+
+.subTitle-h3{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1em;
+    color:#141346;
+}
+
+
+.subTitleWht-h3{
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1em;
+    color:#fff;
+}
+
+.redText{
+    color:#B12333;
+}
+
+.cardItems{
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #0000002f;
+    overflow: hidden;
+}
+
+.cardItems img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardDetails{
+    padding:20px;
+    height: 200px;
+}
+
+.cardDetails h4{
+    font-size: 20px;
+    font-weight: 600;
+    color:#B12333;
+}
+
+.cardDetails p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#000;
+    padding-top: 5px;
+}
+
+.redbtn{
+    color:#B12333;
+}
+
+.redbtn:hover{
+    color:#B12333;
+}
+
+.innerSec{
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.innerSec::before{
+    position: absolute;
+    content:"";
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: #ffffff;
+    background: linear-gradient(268deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 100%);
+    z-index: 0;
+}
+
+.contentSection{
+    position: relative;
+    z-index: 1;
+    width: 60%;
+}
+
+.contentSection p {
+    color:#fff;
+}
+
+.titleSec{
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:15px;
+}
+
+.clubCard{
+    height: 400px;
+    padding:20px;
+    border-radius: 10px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    /* display: flex;
+    align-items: end;
+    justify-content: space-between; */
+    overflow: hidden;
+}
+
+.clubCard::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 24%, rgba(0, 0, 0, 0.71) 100%);
+    z-index: 0;
+}
+
+.clubCard h5{
+    font-size: 17px;
+    color:#fff;
+    font-weight: 600;
+}
+
+.clubCard p{
+    font-size: 10px;
+    color:#fff;
+    font-weight: 400;
+}
+
+.clubCard i{
+    color:#fff;
+    font-size: 40px;
+}
+
+.rangNews{
+    width: 80%;
+}
+
+.rangNews h5{
+    font-size: 30px;
+}
+
+.rangNews p{
+    font-size: 16px;
+}
+
+.rangNewsIcon{
+    font-size: 60px!important;
+    width:20%;
+    text-align: center;
+}
+
+.form-control, .form-select{
+    padding:20px 25px!important;
+    background-color: #F7F7F7!important;
+    border:0px!important;
+}
+
+.form-control::placeholder{
+    font-weight: 600;
+    color:#000!important;
+    font-size: 17px!important;
+}
+
+footer .topImg{
+    width: 100%;
+    height: 450px!important;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.footerLogo {
+    width: 80%!important;
+}
+
+footer ul{
+    flex: auto;
+}
+
+footer ul li a{
+    color:#fff;
+    text-decoration: none!important;
+    text-transform: uppercase;
+}
+
+
+footer .addressCol li{
+    color: #fff;
+    font-size: 15px!important;
+    text-align: right;
+}
+
+.socialIcon li a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border:1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialIcon li a i{
+    font-size: 15px!important;
+}
+
+.btmSec p, .btmSec li a{
+    font-size: 11px!important;
+    color:#fff;
+}
+
+.btmSec{
+    padding:10px 0px;
+    border-top:1px solid #ffffff48;
+}
+
+.exploreRange h5{
+    font-size:20px!important;
+    text-transform: uppercase!important;
+}
+
+.iconImg{
+    width: 7%;
+}
+
+.iconImg img{
+    width: 100%;
+}
+
+.iconCont{
+    width: 93%;
+}
+
+.afflImg img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.col-5ths {
+    flex: 0 0 20%;
+    max-width: 20%;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.cardPdf{
+    background-position: center center;
+    background-size: cover;
+    position:relative;
+}
+
+.cardPdf::before{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    content: "";
+    background-color: #000;
+    opacity: .6;
+}
+
+.cardContent{
+    position: relative;
+    z-index: 1;
+    gap:50px;
+    padding: 40px;
+}
+
+
+.cardContTop{
+    width: 80%;
+}
+
+.cardContent h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#fff;
+    font-weight: 600;
+}
+
+.cardContent i{
+    font-size: 60px;
+    color:#fff;
+}
+
+
+
+.galSec h2{
+    font-weight: 700;
+    color:#141346;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+
+.rangerulesSec .iconCont p{
+    color:#fff;
+}
+
+.rangerulesSec img{
+    width: 100%;
+}
+
+.accordion-item{
+    border: 0px!important;
+}
+
+
+.accordion-header h3{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.accordion-header .accordion-button{
+    background-color: #EFEFEF!important;
+}
+
+.accordion-header .accordion-button.collapsed{
+    border: 1px solid #00000017;
+    border-radius:5px!important;
+}
+
+
+.accordion-button:focus{
+    box-shadow:none!important;
+}
+
+
+.contactUsSec img{
+    height: 160px;
+    object-fit: contain;
+}
+
+.accInfoSec h3{
+    font-weight: 700;
+    color:#000;
+    font-size: 35px;
+}
+
+
+.accInfoSec input::placeholder{
+    color: #00000052!important;
+}
+
+.accInfoSec span{
+    font-size: 13px;
+    color:#00000075;
+}
