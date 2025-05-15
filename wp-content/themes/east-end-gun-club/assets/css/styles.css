@@ -106,31 +106,30 @@ button, span, table, label {
     color:#B12333;
 }
 
-.cardItems{
-    border-radius: 15px;
-    background-color: #fff;
+.card{
     box-shadow: 0px 0px 5px #0000002f;
     overflow: hidden;
+    border: 0px!important;
 }
 
-.cardItems img {
+.card img{
+    object-fit: cover!important;
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height:180px;
 }
 
-.cardDetails{
-    padding:20px;
+.card div{
     height: 200px;
 }
 
-.cardDetails h4{
-    font-size: 20px;
-    font-weight: 600;
-    color:#B12333;
+
+.card div div h4{
+    font-size: 20px!important;
+    font-weight: 600!important;
+    color:#B12333!important;
 }
 
-.cardDetails p{
+.card div div p{
     font-size: 14px;
     font-weight: 400;
     color:#000;
