@@ -106,30 +106,31 @@ button, span, table, label {
     color:#B12333;
 }
 
-.card{
+.cardItems{
+    border-radius: 15px;
+    background-color: #fff;
     box-shadow: 0px 0px 5px #0000002f;
     overflow: hidden;
-    border: 0px!important;
 }
 
-.card img{
-    object-fit: cover!important;
+.cardItems img {
     width: 100%;
-    height:180px;
+    height: 200px;
+    object-fit: cover;
 }
 
-.card div{
+.cardDetails{
+    padding:20px;
     height: 200px;
 }
 
-
-.card div div h4{
-    font-size: 20px!important;
-    font-weight: 600!important;
-    color:#B12333!important;
+.cardDetails h4{
+    font-size: 20px;
+    font-weight: 600;
+    color:#B12333;
 }
 
-.card div div p{
+.cardDetails p{
     font-size: 14px;
     font-weight: 400;
     color:#000;
@@ -142,6 +143,12 @@ button, span, table, label {
 
 .redbtn:hover{
     color:#B12333;
+}
+
+.btn-secondary{
+    background-color: #5A5A5A!important;
+    padding:10px 25px!important;
+    border-radius: 50px!important;
 }
 
 .innerSec{
@@ -443,4 +450,33 @@ footer .addressCol li{
 .accInfoSec span{
     font-size: 13px;
     color:#00000075;
+}
+
+.dateRed{
+    padding:10px;
+    color:#fff;
+    background-color: #B12333;
+}
+
+
+.datesec{
+    background-color: #F0F0F0;
+}
+
+.titlebar{
+    background-color: #B12333;
+    color: #fff;
+}
+
+.bookContent{
+    border:1px solid #000;
+}
+
+.subTitle{
+    margin-top: -35px!important;
+}
+
+
+.bookingFormSec input::placeholder{
+    color:#00000070!important;
 }

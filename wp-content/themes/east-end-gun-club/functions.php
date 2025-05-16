@@ -65,8 +65,18 @@ function east_end_gun_club_scripts() {
     wp_enqueue_style('main-style', get_stylesheet_uri());
     
     // jQuery and Bootstrap JS
-    wp_enqueue_script('jquery');
+    
     wp_enqueue_script('bootstrap-bundle', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js', array('jquery'), '', true);
+    wp_enqueue_script('jquery-bundle', 'https://code.jquery.com/jquery-3.7.1.min.js', array('jquery'), '', true);
+    // wp_enqueue_script('jquery');
+    wp_enqueue_script(
+        'custom-script',
+        get_template_directory_uri() . '/assets/js/scripts.js',
+        array('jquery'),
+        '1.0.0',
+        true
+    );
+    
 }
 add_action('wp_enqueue_scripts', 'east_end_gun_club_scripts');
 

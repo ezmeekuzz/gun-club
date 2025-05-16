@@ -43,7 +43,7 @@
                 ?>
             </div>
             
-            <div class="col-lg-3 col-12">
+            <div class="col-lg-3 col-12 text-light">
                 <address class="addressCol d-flex flex-column gap-2 align-items-lg-end align-items-center p-0" style="list-style: none;">
                     <span><?php esc_html_e('Range Address:', 'east-end-gun-club'); ?></span>
                     <span>251 County 564 Rd.</span>
