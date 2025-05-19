@@ -94,18 +94,102 @@ get_header(); ?>
         <div class="container">
             <form class="bookingFormSec">
                 <div class="row mb-lg-5 mb-3">
-                    <div class="col-lg-3 col-12 d-flex align-items-center">
+                    <div class="col-lg-2 col-12 d-flex align-items-center">
                         <div class="d-flex gap-3 align-items-center">
                             <a type="button" class="btn btn-danger">Change</a>
                             <img style="width:50px; height: 50px; object-fit: contain;" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/icontargetred.webp'); ?>">
                         </div>
                     </div>
 
-                    <div class="col-lg-9 col-12 mt-lg-0 mt-3">
+                    <div class="col-lg-10 col-12 mt-lg-0 mt-3 d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between">
+                        <h3 style="text-align: left;"><b>Black Hammer 22LR Precision Rifle Shoot</b></h3>
                         <p style="text-align: right;">Save time!  Log In or Create Profile</p>
-                        <h3 style="text-align: right;"><b>Black Hammer 22LR Precision Rifle Shoot</b></h3>
                     </div>
                 </div>
+
+                <div class="row contentDetails">
+                    
+                    <div class="col-lg-8 col-12 d-flex flex-column gap-3">
+                        <h4>Course Name:</h4>
+
+                        <p>Handgun Fundamentals, Level 101</p>
+
+                        <h4>Course Description:</h4>
+
+                        <p>This class is designed as a follow-on course for our Entry Level Handgun class or for those who are already established in basic firearm safety and handling. You will work one-on-one with the instructor and coach(es) to gain more comfort with a handgun, improve your marksmanship and kick any bad habits to the curb!</p>
+
+                        <h4>Course Prerequisite:</h4>
+
+                        <ul>
+                            <li>Must be a US Citizen, Immigrant Green Card holder, or possess a valid Washington State ID.</li>
+                            <li>Must be 18 years of age or older and legally able to possess a firearm or, at least, 13 years of age with a parent/ guardian registered as a paying participant for the same course.</li>
+                            <li>Must have taken Entry Level Handgun, and/or possess the equivalent skill set.</li>
+                            <ul>
+                                <li>Minimum skills/knowledge required:</li>
+                                <ul>
+                                    <li>Basic firearms safety rules.</li>
+                                    <li>Basic functions of a handgun.</li>
+                                </ul>
+                                <li>Minimum skills/knowledge required:</li>
+                            </ul>
+                        </ul>
+
+                        <h4>What You Will Learn/ Topics Covered:</h4>
+
+                        <ul>
+                            <li>Learn and demonstrate firearms safety and efficient gun handling practices.</li>
+                            <li>Recap, practice and understand the Fundamentals of Marksmanship and how it affects your shooting.</li>
+                            <ul>
+                                <li>We do not cover malfunctions in this course.</li>
+                            </ul>
+                            <li>Loading/unloading magazines.</li>
+                            <li>Self-diagnose and recognize issues/potentially bad habits and how to fix them.</li>
+                            <li>Improved accuracy.</li>
+                            <li>Takeaway drills to continue practicing both at home and at the range.</li>
+                        </ul>
+
+                        <h4>Equipment Requirements/ What to Bring to Class:</h4>
+
+                        <ul>
+                            <li>Valid ID and/or Immigrant Green Card (if applicable). Non-citizens/ non-IGC holders must provide valid WA State ID.</li>
+                            <li>Everything required for the class will be provided by Bellevue Gun Club.</li>
+                        </ul>
+
+                        <p>If you wish to use your own firearm during the live-fire portion of the class you are welcome to do so, provided it is chambered in 9mm. If your firearm is chambered in any other round you will need to provide your own ammunition.</p>
+                        
+                        <h4>Course Cost:</h4>
+
+                        <p>3 Hours - $140 per person</p>
+                    </div>
+                    
+                    <div class="col-lg-4 col-12 mt-lg-0 mt-3">
+                        <img class="w-100" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/img4.webp'); ?>">
+                    </div>
+
+
+                    <div class="col-lg-12 bookContent mt-5 mb-5 d-flex flex-column align-items-start p-lg-5 p-3">
+                        <h5 class="titlebar subTitle p-2 ps-3 pe-3">Cancellation and Rescheduling Policy</h5>
+
+                        <h4 class="mt-5">CANCELLATION & RESCHEDULING POLICY – PLEASE READ CAREFULLY</h4>
+                        
+                        <p>For classes/sessions lasting 3 hours or LESS:</p>
+
+                        <ul>
+                            <li>Receive a 50% refund, or reschedule for $35: Request must be received at least 2 days/48 hours prior to scheduled start of the course/private lesson/event.</li>
+                            <li>Receive a 50% refund, or reschedule for $35: Request must be received at least 2 days/48 hours prior to scheduled start of the course/private lesson/event.</li>
+                            <li>Reschedule for 50% course value (no refund): Request must be received prior to scheduled start of the course/private lesson/event.</li>
+                        </ul>
+
+                        <p>Call: (541) 203-0124  -  (M-TH, 8am-5pm) – DO NOT LEAVE A VOICE MESSAGE</p>
+                    </div>
+                </div>
+
+
+                
+
+
+                <h3 class="p-3 titlebar mb-5"><b>Select Date, Time, and Participants</b></h3>
+
 
                 <div class="row mb-4">
                     <div class="col-lg-4 my-5 calendar">

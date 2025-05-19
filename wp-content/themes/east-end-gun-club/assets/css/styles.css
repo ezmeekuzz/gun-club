@@ -480,3 +480,7 @@ footer .addressCol li{
 .bookingFormSec input::placeholder{
     color:#00000070!important;
 }
+
+.bookingFormSec .contentDetails h4{
+    font-weight: 700;
+}
