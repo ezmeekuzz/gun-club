@@ -1,3 +1,44 @@
+@media screen and (max-width:1025px){
+    .container-fluid{
+        height: auto;
+    }
+
+
+    .sectAdminBoard{
+        overflow:inherit;
+    }
+
+    .nav-admin{
+        width: 330px!important;
+        position: absolute!important;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        padding:20px;
+        transform: translateX(-350px);
+        transition: .4s;
+    }
+
+    .admin-board{
+        width: 100%!important;
+    }
+
+    .nav-adminToggle{
+        transform: translateX(0px);
+    }
+
+    .mobile{
+        display: flex;
+    }
+
+    .navToggle{
+        justify-content: end;
+    }
+}
+
+
+
+
 @media screen and (max-width:500px){
     .addressCol li a{
         text-align: center;
@@ -49,5 +90,9 @@
 
     .afflImg img{
         height: 150px;
+    }
+
+    .navToggle{
+        justify-content: end;
     }
 }

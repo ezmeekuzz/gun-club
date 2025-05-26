@@ -1,3 +1,28 @@
+jQuery(document).ready(function() {
+  jQuery('.btn-minus').click(function() {
+    let $input = jQuery(this).siblings('.quantity-input');
+    let value = parseInt($input.val()) || 1;
+    let min = parseInt($input.attr('min')) || 1;
+    if (value > min) {
+      $input.val(value - 1);
+    }
+  });
+
+  jQuery('.btn-plus').click(function() {
+    let $input = jQuery(this).siblings('.quantity-input');
+    let value = parseInt($input.val()) || 1;
+    $input.val(value + 1);
+  });
+
+  jQuery('.navToggle').click(function(){
+    jQuery('.nav-admin').toggleClass('nav-adminToggle');
+  });
+
+
+});
+
+
+
 const events = {
   "2025-05-03": {
     title: "Coaching Action Orientation",
@@ -81,19 +106,3 @@ renderCalendar(currentDate);
 
 
 
-jQuery(document).ready(function() {
-  jQuery('.btn-minus').click(function() {
-    let $input = jQuery(this).siblings('.quantity-input');
-    let value = parseInt($input.val()) || 1;
-    let min = parseInt($input.attr('min')) || 1;
-    if (value > min) {
-      $input.val(value - 1);
-    }
-  });
-
-  jQuery('.btn-plus').click(function() {
-    let $input = jQuery(this).siblings('.quantity-input');
-    let value = parseInt($input.val()) || 1;
-    $input.val(value + 1);
-  });
-});

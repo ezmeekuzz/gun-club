@@ -145,6 +145,13 @@ button, span, table, label {
     color:#B12333;
 }
 
+.btn-primary{
+    background-color: #141346!important;
+    border-radius: 50px!important;
+    padding:10px 25px!important;
+    border-color: #141346!important;
+}
+
 .btn-secondary{
     background-color: #5A5A5A!important;
     padding:10px 25px!important;
@@ -484,3 +491,286 @@ footer .addressCol li{
 .bookingFormSec .contentDetails h4{
     font-weight: 700;
 }
+
+.sectAdminBoard{
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #0000002a;
+    background-color: #F6F7FB!important;
+}
+
+.sectAdminBoard .nav-admin{
+    width: 20%;
+    background-color: #141346;
+    z-index: 1;
+    position: relative;
+}
+
+
+.sectAdminBoard .admin-board{
+    width: 80%;
+}
+
+.logSec{
+    background-color: #B12333;
+    border-radius: 15px;
+}
+
+
+.board-header{
+    background-color: #fff!important;
+}
+
+
+.userIcon{
+    color:#fff;
+    font-size:30px;
+    background-color: #141346;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchSec{
+    background-color: #F7F7F7!important;
+    padding-left:20px!important;
+    border-radius: 10px!important;
+}
+
+.searchSec input{
+    padding-left:10px!important;
+}
+
+.userSec h5{
+    font-size:18px;
+    font-weight: 600;
+}
+
+.userSec span{
+    font-size: 12px!important;
+}
+
+.bi-box-arrow-right{
+    font-size:20px!important;
+    width: 40px!important;
+    height: 40px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userDetails{
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #00000034;    
+}
+
+.listContent{
+    background-color: #fff;
+}
+
+
+.listEvents{
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.userDetails h2{
+    font-size:40px;
+    font-weight: 700;
+    color:#141346;
+}
+
+.admin-board h4{
+    font-size:25px;
+    font-weight: 700;
+    color:#141346;
+}
+
+.listheader {
+    background-color: #141346;
+    color:#fff;
+}
+
+
+.listContItems{
+    background-color: #F8F9FD;
+    border-radius: 15px!important;
+}
+
+
+.secCol{
+    background-color: #fff!important;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #00000023;
+    overflow: hidden;
+}
+
+
+.secCol h3{
+    color:#B12333;
+    font-weight: 700;
+}
+
+
+.bi-gem{
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background-color: #141346;
+    color:#fff;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.memberScroll{
+    height: 170px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.memberInfo p{
+    font-size: 15px;
+}
+
+.memberInfo span{
+    font-size: 11px;
+}
+
+.listDetails p{
+    font-size: 14px!important;
+}
+
+.mailLogo{
+    max-width: 70%;
+}
+
+.navToggle{
+    background-color: transparent;
+    border: 0px;
+}
+
+.navToggle i{
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border:1px solid #000;
+    color:#000000;
+}
+
+
+.cont-top ul{
+    color:#fff!important;
+    list-style: none!important;
+}
+
+
+.cont-top ul li a{
+    padding:10px 15px;
+    display: flex;
+    gap:10px;
+    transition: .4s;
+    border-radius: 5px;
+}
+
+.cont-top ul li a:hover{
+    background-color: #B12333;
+}
+
+.cont-top ul li a i{
+    width: 30px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-top ul li a span{
+    transition: .4s;
+}
+
+
+.logSec a{
+    color:#fff;
+    text-decoration: none!important;
+    border-bottom: 1px solid #ffffff4f;
+}
+
+
+
+.theme-switch-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background-color: #8e2c4800; /* Your background color */
+      padding: 10px 20px;
+      border-radius: 30px;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .theme-switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 30px;
+    }
+
+    .theme-switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #191944;
+      transition: .4s;
+      border-radius: 30px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 24px;
+      width: 24px;
+      left: 3px;
+      top: 3px;
+      background-color: white;
+      background-image: url('https://img.icons8.com/ios-filled/24/191944/sun--v1.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 16px 16px;
+      transition: .4s;
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: #191944;
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(30px);
+      background-image: url('https://img.icons8.com/ios-filled/24/191944/crescent-moon.png');
+    }
+
+
+    .mobile{
+        display: none;
+    }
