@@ -140,9 +140,9 @@
                     </div>
 
 
-                    <h4>Active Events</h4>
+                    <h4 class="d-none">Active Events</h4>
 
-                    <div class="listEvents mt-4 mb-4">
+                    <div class="listEvents mt-4 mb-4 d-none">
                         <div class="listheader d-flex flex-lg-row flex-column justify-content-between align-items-center p-3">
                             <p>Found records <span>12</span></p>
                             <div class="listBtns mt-lg-0 mt-2">
@@ -186,13 +186,35 @@
                 </div>
 
                 <div class="col-lg-3 col-12">
-                    <div class="secCol d-flex flex-column gap-2 p-3 mb-3">
-                        <h4>Renew Membership</h4>
-                        <p>Get interesting updates on your membership account</p>
-                        <a class="btn btn-danger" href="#">Renew Membership</a>
+
+                    <div class="d-flex p-3 align-items-center gap-3 blueSide mb-3">
+                        <i class="bi bi-gem"></i>
+                        <div class="d-flex flex-column gap-1">
+                            <h5>Member Plan</h5>
+                            <p>Family</p>
+                        </div>
                     </div>
 
-                    <div class="secCol d-flex gap-3 p-3 mb-3">
+                    <div class="d-flex flex-column p-4 align-items-start justify-content-between gap-4 blueSide cardAtm mb-3">
+                        <h5>My Card</h5>
+                        <div class="d-flex align-items-center justify-content-between w-100">
+                            <p>1234-5678-0123-4567</p>
+                            <i class="bi bi-sim"></i>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between botPart w-100">
+                            <p>John Doe</p>
+                            <p>Exp: 08/2025</p>
+                        </div>
+                    </div>
+
+                    <div class="secCol d-flex flex-column align-items-start gap-3 p-4 mb-3">
+                        <h4>Membership Status</h4>
+                        <p>Get interesting updates on your membership account</p>
+                        <p class="redText">Valid until  08/04/ 27</p>
+                        <a class="btn btn-danger" href="#">upgrade membership</a>
+                    </div>
+
+                    <div class="secCol d-none gap-3 p-3 mb-3">
                         <div class="d-flex flex-column gap-2">
                             <i class="bi bi-gem"></i>
                             <h4>Member Benefits</h4>

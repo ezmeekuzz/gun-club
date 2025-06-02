@@ -611,7 +611,7 @@ footer .addressCol li{
     font-size: 30px;
     height: 60px;
     width: 60px;
-    background-color: #141346;
+    background-color: #C9283A;
     color:#fff;
     border-radius: 60px;
     display: flex;
@@ -924,4 +924,23 @@ footer .addressCol li{
 .pdfCard h4{
     font-size:25px;
     font-weight: 700;
+}
+
+.blueSide{
+    background-color: #141346;
+    border-radius: 10px;
+    color:#fff;
+}
+
+.cardAtm{
+    height:250px;
+}
+
+.cardAtm i{
+    transform: rotate(90deg);
+    font-size: 40px;
+}
+
+.cardAtm .botPart p{
+    font-size:13px!important;
 }
