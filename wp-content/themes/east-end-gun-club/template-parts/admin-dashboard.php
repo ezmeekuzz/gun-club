@@ -223,7 +223,7 @@
                         <h3>1809 Points</h3>
                     </div>
 
-                    <div class="secCol d-flex flex-column gap-2 p-3">
+                    <div class="secCol d-none flex-column gap-2 p-3">
                         <h4>Chat</h4>
                         <p>Active Members</p>
                         <div class="memberScroll">
