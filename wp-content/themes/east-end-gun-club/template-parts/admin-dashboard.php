@@ -14,11 +14,6 @@
     display:none;
 }
 
-.container-fluid{
-    height: 100vh;
-}
-
-
 
 
 </style>
@@ -29,9 +24,23 @@
 
     <div class="d-flex sectAdminBoard w-100">
         <div class="nav-admin p-4 d-flex flex-column justify-content-between">
+
+            
             
             <div class="cont-top">
                 <img class="w-100 mb-5 mailLogo" src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/LogoWht.webp'); ?>">
+                <div class="d-flex flex-column align-items-center gap-2 mt-4 mb-4">
+                    <div class="profileInfo d-flex flex-column align-items-center gap-2">
+                        <i class="bi bi-person-fill"></i>
+                        <h6>John Doe</h6>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center gap-2 profileDtls">
+                        <a href="#" class="text-center">13216 Southeast, 32nd Street, Bellevue, WA 98005</a>
+                        <a href="#" class="text-center">+ 1223 542 343</a>
+                        <a href="#" class="text-center">Johndoe@email.com</a>
+                    </div>
+                </div>
                 <ul class="d-flex flex-column gap-2 p-0">
                     <li><a><i class="bi bi-ui-checks-grid"></i><span>Dashboard</span></a></li>
                     <li><a><i class="bi bi-people-fill"></i><span>Membership History</span></a></li>
@@ -72,22 +81,71 @@
                 </div>
             </div>
             <div class="row p-4">
+
                 <div class="col-lg-9 col-12">
-                    <div class="userDetails d-flex flex-column gap-2 p-3 mb-4 align-items-start">
-                        <h2>Welcome back, John Doe !</h2>
-                        <p>You’ve been a member since 2018.</p>
-                        <p>You Have 9 upcoming event this month </p>
-                        <a class="btn btn-danger">See schedules</a>
+
+                    <div class="card w-100 mb-5">
+                        <div class="card-body p-4">
+                            <h2>Welcome back, John Doe !</h2>
+                            <p>You’ve been a member since 2018.</p>
+                        </div>
+                        <div class="card-footer text-body-secondary d-flex justify-content-between p-4">
+                            <p>NRA NUMBER :  2324325243</p>
+                            <p>Expiry Date:  2029</p>
+                        </div>
                     </div>
 
+
+                    <div class="row mt-4 mb-4">
+                        <div class="col-12 mb-3 d-flex flex-lg-row flex-column align-items-lg-center align-items-start gap-2 justify-content-lg-between">
+                            <h5>Family Members</h5>
+                            <button class="btn btn-danger">+ add member</button>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="d-flex gap-3 p-2 userSmallAv">
+                                <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/userImg2.webp'); ?>">
+                                <div class="d-flex flex-column gap-1 justify-content-center">
+                                    <p>Jane Doe</p>
+                                    <p>Active Member Since 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-lg-0 mt-3">
+                            <div class="d-flex gap-3 p-2 userSmallAv">
+                                <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/userImg2.webp'); ?>">
+                                <div class="d-flex flex-column gap-1 justify-content-center">
+                                    <p>Jane Doe</p>
+                                    <p>Active Member Since 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-lg-0 mt-3">
+                            <div class="d-flex gap-3 p-2 userSmallAv">
+                                <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/userImg2.webp'); ?>">
+                                <div class="d-flex flex-column gap-1 justify-content-center">
+                                    <p>Jane Doe</p>
+                                    <p>Active Member Since 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 mt-4">
+                            <div class="d-flex gap-3 p-2 userSmallAv">
+                                <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/userImg2.webp'); ?>">
+                                <div class="d-flex flex-column gap-1 justify-content-center">
+                                    <p>Jane Doe</p>
+                                    <p>Active Member Since 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
                     <h4>Active Events</h4>
 
-                    <div class="listEvents mt-4">
-                        <div class="listheader d-flex justify-content-between align-items-center p-3">
+                    <div class="listEvents mt-4 mb-4">
+                        <div class="listheader d-flex flex-lg-row flex-column justify-content-between align-items-center p-3">
                             <p>Found records <span>12</span></p>
-                            <div class="listBtns">
+                            <div class="listBtns mt-lg-0 mt-2">
                                 <a class="btn btn-secondary"><i class="bi bi-journal-arrow-down"></i>Sort</a>
                                 <a class="btn btn-danger" href="#">See More</a>
                             </div>
@@ -122,6 +180,9 @@
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
 
                 <div class="col-lg-3 col-12">
@@ -189,6 +250,32 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="d-flex flex-column gap-3 p-4">
+                <h4>Member Documents & Policies</h4>
+
+                <div class="row mt-3">
+                    <div class="col-lg-4 col-12">
+                        <div class="d-flex flex-column gap-4 w-100 pdfCard p-4 justify-content-between" style="background-image:url('<?php echo esc_url(get_template_directory_uri() . '/assets/images/pdfImg.webp'); ?>');">
+                            <i class="bi bi-filetype-pdf"></i>
+                            <h4>Security/Terms of service</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 mt-lg-0 mt-3">
+                        <div class="d-flex flex-column gap-4 w-100 pdfCard p-4 justify-content-between" style="background-image:url('<?php echo esc_url(get_template_directory_uri() . '/assets/images/pdfImg.webp'); ?>');">
+                            <i class="bi bi-filetype-pdf"></i>
+                            <h4>Rules and regulations</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12 mt-lg-0 mt-3">
+                        <div class="d-flex flex-column gap-4 w-100 pdfCard p-4 justify-content-between" style="background-image:url('<?php echo esc_url(get_template_directory_uri() . '/assets/images/pdfImg.webp'); ?>');">
+                            <i class="bi bi-filetype-pdf"></i>
+                            <h4>Terms & Conditions</h4>
                         </div>
                     </div>
                 </div>

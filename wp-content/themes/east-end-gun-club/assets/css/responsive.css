@@ -25,6 +25,7 @@
 
     .nav-adminToggle{
         transform: translateX(0px);
+        position: fixed!important;
     }
 
     .mobile{
