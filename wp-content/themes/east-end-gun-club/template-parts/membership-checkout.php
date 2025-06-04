@@ -333,7 +333,9 @@ get_header(); ?>
                             <select class="form-select" aria-label="NRA qualifications">
                                 <option selected>CRSO</option>
                                 <option value="CRSO">CRSO</option>
-                                <option value="CRSO">CRSO</option>
+                                <option value="RSO">RSO</option>
+                                <option value="Rifle">Rifle</option>
+                                <option value="Pistol">Pistol</option>
                             </select>
                         </div>
                         <div class="d-flex gap-2 flex-column w-100">
@@ -344,8 +346,9 @@ get_header(); ?>
                             <label><b>NRA membership</b></label>
                             <select class="form-select" aria-label="NRA membership">
                                 <option selected>Select NRA membership</option>
-                                <option value="NRAmembership">Select NRA membership</option>
-                                <option value="NRAmembership">Select NRA membership</option>
+                                <option value="NRAmembership">Regular membership (with a magazine) $35</option>
+                                <option value="Associate-membership">Associate membership (no magazine) $10</option>
+                                <option value="Direct-payment">Direct payment to the NRA (such as a lifetime membership) $0</option>
                             </select>
                         </div>
 
@@ -359,9 +362,11 @@ get_header(); ?>
                         <div class="d-flex gap-2 flex-column w-100">
                             <label><b>NRA Magazine</b></label>
                             <select class="form-select" aria-label="NRA Magazine">
-                                <option selected>NRA Magazine</option>
-                                <option value="NONE">NONE</option>
-                                <option value="NONE">NONE</option>
+                                <option selected>Select NRA Magazine</option>
+                                <option value="American-Rifleman">American Rifleman</option>
+                                <option value="Shooting-Illustrated">Shooting Illustrated</option>
+                                <option value="First-Freedom">First Freedom</option>
+                                <option value="American-Hunter">American Hunter</option>
                             </select>
                             <span><b>Choose ONE Magazine IF You Are A REGULAR Member.</b></span>
                         </div>
